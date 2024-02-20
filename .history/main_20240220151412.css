@@ -1,0 +1,40 @@
+:root {
+    --green: #dd367e; /* 定义绿色变量，颜色代码为#00FF00 */
+    --white: #1ab0de; /* 定义白色变量，颜色代码为#FFFFFF */
+    --black: #000000; /* 定义黑色变量，颜色代码为#000000 */
+}
+body {
+    background-color: var(--bg); /* 设置body背景颜色，使用变量--bg */
+    color: var(--fontColor); /* 设置body文字颜色，使用变量--fontColor */
+    font-family: Helvetica; /* 设置body字体为Helvetica */
+}
+/*将所有无序列表（<ul>标签）的字体设置为Helvetica字体*/
+li {
+    list-style: circle; /* 设置列表项前的符号为圆圈 */
+}
+.list {
+    list-style: square; /* 设置class为list的列表项前的符号为正方形 */
+}
+.btn {
+    position: absolute; /* 设置按钮位置为绝对定位 */
+    top: 40px; /* 设置按钮距离顶部20像素 */
+    left: 250px; /* 设置按钮距离左边250像素 */
+    height: 50px; /* 设置按钮高度为50像素 */
+    width: 50px; /* 设置按钮宽度为50像素 */
+    border-radius: 50%; /* 设置按钮边角为圆形 */
+    border: none; /* 设置按钮无边框 */
+    color: var(--btnFontColor); /* 设置按钮文字颜色，使用变量--btnFontColor */
+    background-color: var(--btnBg); /* 设置按钮背景颜色，使用变量--btnBg */
+}
+.light-theme {
+    --bg: var(--green); /* 浅色主题下，设置背景颜色为绿色 */
+    --fontColor: var(--black); /* 浅色主题下，设置文字颜色为黑色 */
+    --btnBg: var(--black); /* 浅色主题下，设置按钮背景颜色为黑色 */
+    --btnFontColor: var(--white); /* 浅色主题下，设置按钮文字颜色为白色 */
+}
+.dark-theme {
+    --bg: var(--black); /* 深色主题下，设置背景颜色为黑色 */
+    --fontColor: var(--green); /* 深色主题下，设置文字颜色为绿色 */
+    --btnBg: var(--white); /* 深色主题下，设置按钮背景颜色为白色 */
+    --btnFontColor: var(--black); /* 深色主题下，设置按钮文字颜色为黑色 */
+}

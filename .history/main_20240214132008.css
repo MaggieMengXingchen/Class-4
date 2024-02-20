@@ -1,0 +1,17 @@
+body { 
+font-family: monospace; 
+} ul {
+font-family: helvetica; 
+}
+li {
+list-style: circle;//将所有列表项的前面标记设置为圆圈
+}
+.list {
+list-style: square; 
+}
+#msg { 
+font-family: monospace;
+}
+.light-theme {
+color: #000000;
+background: #00FF00; }

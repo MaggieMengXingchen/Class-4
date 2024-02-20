@@ -1,0 +1,18 @@
+body { 
+font-family: monospace; /*将网页主体部分的字体设置为等宽字体*/
+} ul {
+font-family: helvetica; 
+}
+li {
+list-style: circle;
+}
+.list {
+list-style: square; 
+}
+#msg { 
+font-family: monospace;
+}
+.light-theme {
+color: #0fb7ef;
+background: #238851; 
+}

@@ -1,0 +1,28 @@
+:root {
+--green: #00FF00; 
+--white: #FFFFFF; 
+--black: #000000; 
+}
+body {
+background: var(--bg);
+color: var(--fontColor);
+font-family: helvetica; 
+} ul {
+/*将所有无序列表（<ul>标签）的字体设置为Helvetica字体*/
+li {
+list-style: circle;
+}
+.list {
+list-style: square; 
+}
+#msg { 
+font-family: monospace;
+}
+.light-theme {
+--bg: var(--green);
+--fontColor: var(--black);
+}
+.dark-theme {
+--bg: var(--black);
+--fontColor: var(--green); 
+}

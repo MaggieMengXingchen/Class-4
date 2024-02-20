@@ -1,0 +1,25 @@
+<!DOCTYPE html> <!-- 定义文档类型，告诉浏览器这是一个HTML5文档 -->
+<html lang="en"> <!-- 根元素，定义了整个HTML文档，lang属性指定文档的主要语言为英语 -->
+<head>
+    <meta charset="UTF-8"> <!-- 定义字符编码为UTF-8，支持大多数语言的字符 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 视口设置，确保网页在不同设备上正确显示，实现响应式设计 -->
+    <title>Document</title> <!-- 定义网页标题 -->
+    <Link rel="stylesheet" href="main.css"> <!-- 链接外部CSS文件，用于定义网页的样式 -->
+        <noscript>You need to enable JavaScript to view the full site.</noscript> <!-- 如果浏览器禁用了JavaScript，显示这段文本 -->
+</head>
+<body class="dark-theme"><!-- 使用class属性应用暗色主题的样式，通过改变class值可以切换主题 -->
+    <h1>To do list</h1> <!-- 页面的主标题 -->
+    <p id="msg">2024:</p> <!-- 段落标签，定义了一个文本区域 -->
+    <ul> <!-- 定义一个无序列表 -->
+        <li class="list">Add visual styles</li> <!-- 列表项，应用了class="list"的样式，显示为方形项目符号 -->
+        <li class="list">Add light and dark themes</li> <!-- 同上 -->
+        <li>Enable switching the theme</li> <!-- 无特殊样式的列表项，默认圆形项目符号 -->
+    </ul>
+    <div> 
+        <button class="btn">Dark</button> <!-- 定义一个按钮，应用了.btn样式 -->
+    </div>
+    <script src="app.js"></script> <!-- 引入外部JavaScript文件，用于添加交互功能 -->
+</body>
+
+<script>alert('Hello World')</script> <!-- 内嵌JavaScript代码，加载网页时弹出"Hello World"警告框 -->
+</html>
